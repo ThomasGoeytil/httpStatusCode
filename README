@@ -1,2 +1,5 @@
 This is a simple script to reveal which http status code urls from a file give
+For each url in the file, a HTTP HEAD method will be made against the url.
+Note that the url must contain http://
+
 usage: statusCode.py urlfile statuscodeseries (1,2,3,4 or 5)

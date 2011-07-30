@@ -27,6 +27,6 @@ else:
         resp, content = http.request(url, "HEAD")
         httpStatusCode = str(resp.status)
         if(httpStatusCode[0] == statusCodeExtension):
-            print "Url: " + url + "Gave status: " , resp.status
+            print "Url: " + url + " Gave status: " , resp.status
 
       
