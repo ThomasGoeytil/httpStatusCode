@@ -1,0 +1,2 @@
+This is a simple script to reveal which http status code urls from a file give
+usage: statusCode.py urlfile statuscodeseries (1,2,3,4 or 5)
